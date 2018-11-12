@@ -1,0 +1,15 @@
+## OS X temporary files that should never be committed
+.DS_Store
+.Trashes
+*.swp
+
+
+## Various settings
+*.pbxuser
+xcuserdata/
+
+## IDEA AppCode
+.idea
+
+ObjCInitChecker/clang+llvm
+ObjCInitChecker/libObjCInitChecker.dylib

@@ -1,0 +1,15 @@
+
+//	Search Paths
+//	{
+    OTHER_CFLAGS = -Xclang -load -Xclang ${SRCROOT}/../ObjCInitChecker/libObjCInitChecker.dylib -Xclang -add-plugin -Xclang ObjCSuperInitPlugin
+//	}
+
+//    Build Options
+//    {
+    COMPILER_INDEX_STORE_ENABLE = NO
+//    }
+
+//  {
+    CC = ${SRCROOT}/../ObjCInitChecker/clang+llvm/bin/clang
+    CCX = ${SRCROOT}/../ObjCInitChecker/clang+llvm/bin/clang
+//  }
